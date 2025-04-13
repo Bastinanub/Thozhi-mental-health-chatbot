@@ -135,7 +135,7 @@ export const generateResponse = async (
   } catch (error) {
     console.error("Error fetching from backend:", error);
     return {
-      text: "Oops! I couldn't reach Menti right now. Please try again shortly.",
+      text: "Oops! I couldn't reach Thozhi right now. Please try again shortly.",
     };
   }
 };
